@@ -127,6 +127,9 @@ p{
 #start_screen{
   width:100vw;
   height:100vh;
+  max-width: 1400px;
+  margin: auto;
+
   @include display-flex;
   @include flex-wrap(wrap);
 }
@@ -214,6 +217,7 @@ p{
   height:30px!important;
   left:calc(50% - 100px)!important;
   display:none;
+
   div{
     position:absolute;
     left:0px;
@@ -224,15 +228,15 @@ p{
   }
 }
 
-#score_div{
-  position:absolute;
-  top:50px;
+#score_div {
+  position: absolute;
+  top: 50px;
   left: 0;
   right: 0;
   margin: auto;
-  width:100%;
-  display:none;
-  z-index:9;
+  width: 100%;
+  display: none;
+  z-index: 9;
 
   h3 {
     text-align: center;
