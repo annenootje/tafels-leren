@@ -64,10 +64,6 @@ p {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .button {
@@ -495,6 +491,15 @@ p {
   #container {
     display: none;
   }
+}
+.owner {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 12px;
+}
+.owner a {
+  color: #232323;
 }
 
 /*# sourceMappingURL=style.css.map */

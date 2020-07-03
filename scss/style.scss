@@ -131,7 +131,6 @@ p{
   margin: auto;
 
   @include display-flex;
-  @include flex-wrap(wrap);
 }
 
 .button{
@@ -443,5 +442,18 @@ p{
   }
   #container{
     display:none;
+  }
+}
+
+
+.owner {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  font-size: 12px;
+
+  a {
+    color: $zwart
   }
 }
